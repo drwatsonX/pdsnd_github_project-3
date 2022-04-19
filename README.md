@@ -19,4 +19,6 @@ https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-
 My main issue is the system setup to get Git and GitHub working together. Authentication needed resetting and TLS 1.2 needed to be enabled since I am using Windows 7
 https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
 https://github.community/t/ive-got-an-error-the-request-was-aborted-could-not-create-ssl-tls-secure-channel/197400/5
+https://git-scm.com/download/win
+
 
