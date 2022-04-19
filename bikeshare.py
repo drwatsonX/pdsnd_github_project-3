@@ -154,7 +154,7 @@ def station_stats(df):
     # https://towardsdatascience.com/9-pandas-value-counts-tricks-to-improve-your-data-analysis-7980a2b46536 Pandas .value_counts() Method
     # https://www.w3schools.com/python/pandas/ref_df_idxmax.asp#:~:text=The%20idxmax()%20method%20returns,maximum%20value%20for%20each%20row.Pandas DataFrame .idxmax() Method
     # Taking a break from .mode() for a change by combining .value_counts() and .idxmax() --- Same results achieved
-    print('Most commonly used End Station: ', df['End Station'].value_counts().idxmax())
+    print('Most commonly used End Station: ', df['End Station'].mode()[0])
 
 
 
