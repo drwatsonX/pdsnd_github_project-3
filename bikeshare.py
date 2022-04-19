@@ -142,15 +142,15 @@ def station_stats(df):
 
 
 
-    # TO DO: display most commonly used start station
+    # TO DO: display most popular start station
     # https://towardsdatascience.com/9-pandas-value-counts-tricks-to-improve-your-data-analysis-7980a2b46536 Pandas .value_counts() Method
     # https://www.w3schools.com/python/pandas/ref_df_idxmax.asp#:~:text=The%20idxmax()%20method%20returns,maximum%20value%20for%20each%20row.Pandas DataFrame .idxmax() Method
     # Taking a break from .mode() for a change by combining .value_counts() and .idxmax() --- Same results achieved
-    print('Most commonly used Start Station: ', df['Start Station'].mode()[0])
+    print('Most popular start station: ', df['Start Station'].mode()[0])
 
 
 
-    # TO DO: display most commonly used start station
+    # TO DO: display most popular destination station
     # https://towardsdatascience.com/9-pandas-value-counts-tricks-to-improve-your-data-analysis-7980a2b46536 Pandas .value_counts() Method
     # https://www.w3schools.com/python/pandas/ref_df_idxmax.asp#:~:text=The%20idxmax()%20method%20returns,maximum%20value%20for%20each%20row.Pandas DataFrame .idxmax() Method
     # Taking a break from .mode() for a change by combining .value_counts() and .idxmax() --- Same results achieved
